@@ -1,0 +1,1651 @@
+html, body {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}                  
+body { width: 100%; position: absolute; }
+ul { list-style: none; }
+	
+#eurolog { position: absolute; width: 17px; height: 17px; right: 77px; bottom: 59px; background: url(../img/logo/euro.png) 0 0 no-repeat;}
+				
+/*LANDSCAPES///////*/
+
+@media only screen and
+(min-width:950px) and
+(orientation: landscape) {
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 30px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 10px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 40px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ position: absolute; left: 70px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ position: absolute; right: 60px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ position: absolute; left: 70px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ position: absolute; right: 60px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen { margin-top: 0px;}
+			#home .screen .content { position: relative; margin:10px auto; width: 100%;}
+				#combox { width: 642px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+				#combox1 { position: absolute; width: 150px; height: 150px; margin-left: 0px; z-index: 3000; background: url(../img/logo/riru1.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 192px; height: 150px; margin-left: 150px; z-index: 3000; background: url(../img/logo/subar1.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 150px; height: 150px; margin-left: 342px; z-index: 3000; background: url(../img/logo/rupir1.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 150px; height: 150px; margin-left: 492px; z-index: 3000; background: url(../img/logo/nohotel1.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 580px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 40px auto; color: #000; }
+			#action { position: relative; width: 700px; height: 145px; margin: 100 auto; border: 0px solid #000000; }
+					#action_like { position: absolute; width: 150px; height: 147px; left: 0px; top: 0px; background: url(../img/logo/like.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 150px; height: 147px; left: 270px; top: 0px; background: url(../img/logo/share.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 150px; height: 147px; right: 0px; top: 0px; background: url(../img/logo/win.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: 0px; top: 120px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 30px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 70px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 800px; min-height: 120px; margin: 100px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);
+			-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen { background: url(../images/technik_frei2l.png) 50% 50% no-repeat; }
+			#technik .screen .content { margin-top: 50; margin-left: 70; width: 700px; }
+#auszeit { position: relative; width: 700px; min-height: 50px; left: 10px ; top: 30px; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 500px; height: 260px; left: 130px ; top: 40px; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);
+-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { margin-top: 14%; margin-left: 68%; color: #fff; }
+		#labtxt1{ position: relative; width: 700px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#rirusearch { position: relative; width: 761px; height: 122px; margin: -80px auto; background: url(../img/bgs/rirusearch.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 700px; min-height: 69px; margin: 130px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 14px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: -100px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 700px; min-height: 50px; margin: 110px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 620px; height: 150px; margin: -100px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+			#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: 0px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+				
+			
+			
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 90%; min-height: 50px; max-height: 600px; overflow-y: scroll; margin: 60px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 30px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#sledge { position: absolute; width: 134px; height: 47px; left: 147px; top:-40px; z-index: 3000; background: url(../img/logo/sledge.png) 0 0 no-repeat;}
+	#contact .screen .content { margin-top: 14%; margin-left: 20%; color: #fff;}
+	#coninfo { position: relative; width: 700px; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 800px; height: 300px; margin: -70px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 0px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 580px; top: 0px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 260px; top: 20px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 400px; height: 100px; margin: -50px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+@media only screen and
+(min-width:770px) and
+(max-width:949px) and
+(orientation: landscape){ 
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 26px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 10px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 40px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ position: absolute; left: 70px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ position: absolute; right: 60px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ position: absolute; left: 70px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ position: absolute; right: 60px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen { margin-top: 0px;}
+			#home .screen .content { position: relative; margin:10px auto; width: 90%;}
+				#combox { width: 642px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+				#combox1 { position: absolute; width: 150px; height: 150px; margin-left: 0px; z-index: 3000; background: url(../img/logo/riru1.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 192px; height: 150px; margin-left: 150px; z-index: 3000; background: url(../img/logo/subar1.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 150px; height: 150px; margin-left: 342px; z-index: 3000; background: url(../img/logo/rupir1.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 150px; height: 150px; margin-left: 492px; z-index: 3000; background: url(../img/logo/nohotel1.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 580px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 40px auto; color: #000; }
+			#action { position: relative; width: 700px; height: 145px; margin: 70 auto; border: 0px solid #000000; }
+					#action_like { position: absolute; width: 150px; height: 147px; left: 40px; top: 0px; background: url(../img/logo/like.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 150px; height: 147px; left: 270px; top: 0px; background: url(../img/logo/share.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 150px; height: 147px; right: 40px; top: 0px; background: url(../img/logo/win.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: 0px; top: 120px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 30px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 70px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 600px; min-height: 120px; margin: 100px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);
+			-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen {  background: url(../images/technik_frei2l.png) 50% 50% no-repeat; }
+			#technik .screen .content { margin: 50 auto; width: 700px; }
+#auszeit { position: relative; width: 500px; min-height: 50px; margin: 30 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 500px; height: 260px; margin: -20 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);
+-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { position: relative; width: 47px; height: 31px; margin: 20px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { position: relative; margin: 0px auto;}
+		#labtxt1{ display: none; position: relative; width: 450px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#labtxt1 h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+
+		#rirusearch { position: relative; width: 243px; height: 188px; margin: 70px auto; background: url(../img/bgs/rirusearch2.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 500px; min-height: 69px; margin: -60px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 14px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: 50px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 520px; min-height: 50px; margin: 60px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 300px; height: 150px; margin: -40px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: 0px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+									
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 90%; min-height: 50px; max-height: 600px; overflow-y: scroll; margin: 60px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 30px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#contact .screen .content { margin-top: 14%; margin-left: 20%; color: #fff;}
+	#coninfo { position: relative; width: 700px; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 500px; height: 300px; margin: -50px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 0px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 260px; top: 0px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 220px; top: 170px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 400px; height: 100px; margin: -50px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+@media only screen and
+(min-width:500px) and
+(max-width:769px) and
+(orientation: landscape){ 
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 0px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 40px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ position: absolute; left: 30px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ position: absolute; right: 20px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ display:none; position: absolute; left: 30px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ display:none; position: absolute; right: 20px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen {top: 0px;}
+			#home .screen .content { position: relative; margin:-20px auto; width: 90%;}
+				#combox { width: 380px; height: 150px; margin: 0px auto; z-index: 3000; }
+				#combox1 { position: absolute; width: 150px; height: 150px;left: 10px; top:0px; z-index: 3000; background: url(../img/logo/riru1.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 192px; height: 150px; left: 130px; top:90px;  z-index: 3000; background: url(../img/logo/subar1.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 150px; height: 150px; left: 152px; top:0px; z-index: 3000; background: url(../img/logo/rupir1.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 150px; height: 150px; left: 292px; top:0px; z-index: 3000; background: url(../img/logo/nohotel1.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 400px; height: 150px; margin: 40px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 40px auto; color: #000; }
+			#action { position: relative; width: 400px; height: 200px; margin: -10px auto; border: 0px solid #000000; }
+					#action_like { position: absolute; width: 150px; height: 147px; left: 0px; top: 0px; background: url(../img/logo/like.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 150px; height: 147px; left: 270px; top: 0px; background: url(../img/logo/share.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 150px; height: 147px; left: 130px; top: 70px; background: url(../img/logo/win.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: 0px; top: 120px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 30px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 70px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 100%; min-height: 120px; margin: 120px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { display:none; position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen .content { margin: 50 auto; width: 100%; border: 0px solid #000000;}
+#auszeit { position: relative; width: 90%; min-height: 50px; margin: 30 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 100%; height: 260px; margin: -20 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);}
+
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { position: relative; width: 47px; height: 31px; margin: 20px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { position: relative; margin: 0px auto;}
+		#labtxt1{ display: none; position: relative; width: 450px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#labtxt1 h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+
+		#rirusearch { position: relative; width: 243px; height: 188px; margin: 70px auto; background: url(../img/bgs/rirusearch2.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 100%; min-height: 69px; margin: -60px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: 50px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 90%; min-height: 50px; margin: 60px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 300px; height: 150px; margin: -40px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: 0px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+							
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 90%; min-height: 50px; max-height: 600px; overflow-y: scroll; margin: 60px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 30px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#contact .screen .content { margin-top: 14%; margin-left: 20%; color: #fff;}
+	#coninfo { position: relative; width: 90%; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 500px; height: 300px; margin: -50px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 0px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 260px; top: 0px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 220px; top: 170px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 400px; height: 100px; margin: -50px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+@media only screen and
+(min-width:230px) and
+(max-width:499px) and
+(orientation: landscape){ 
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 0px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 0px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ display:none; position: absolute; left: 30px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ display:none; position: absolute; right: 20px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ display:none; position: absolute; left: 30px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ display:none; position: absolute; right: 20px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen {top: 0px;}
+			#home .screen .content { position: relative; margin:0px auto; width: 100%;}
+				#combox { position:relative; width: 330px; height: 150px; margin: 0px auto; z-index: 3000; }
+				#combox1 { position: absolute; width: 120px; height: 120px;left: 0px; top:30px; z-index: 3000; background: url(../img/logo/riru1s.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 154px; height: 120px; left: 80px; top:100px;  z-index: 3000; background: url(../img/logo/subar1s.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 120px; height: 120px; left: 100px; top:30px; z-index: 3000; background: url(../img/logo/rupir1s.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 120px; height: 120px; left: 210px; top:30px; z-index: 3000; background: url(../img/logo/nohotel1s.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 0px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 90%; min-height: 150px; margin: 50px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 0px auto; color: #000; }
+			#action { position: relative; width: 90%; height: 200px; margin: 40px auto; }
+					#action_like { position: absolute; width: 100px; height: 98px; left: 20px; top: 40px; background: url(../img/logo/likes.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 100px; height: 98px; left: 230px; top: 40px; background: url(../img/logo/shares.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 100px; height: 98px; left: 128px; top: 150px; background: url(../img/logo/wins.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: -20px; top: 75px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 20px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 50px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 100%; min-height: 120px; margin: 120px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { display:none; position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen .content { margin: 50 auto; width: 100%; border: 0px solid #000000;}
+#auszeit { position: relative; width: 90%; min-height: 50px; margin: 80px auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 100%; height: 260px; margin: -60 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);}
+
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { display:none; position: relative; width: 47px; height: 31px; margin: 20px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { position: relative; margin: 0px auto;}
+		#labtxt1{ display: none; position: relative; width: 450px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#labtxt1 h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+
+		#rirusearch { position: relative; width: 243px; height: 188px; margin: 70px auto; background: url(../img/bgs/rirusearch2.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 100%; min-height: 69px; margin: -60px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: 50px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 90%; min-height: 50px; margin: 80px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 300px; height: 150px; margin: -40px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: -10px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+				
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 100%; min-height: 80px; max-height: 600px; overflow-y: scroll; margin: 90px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#contact .screen .content { margin: 0px auto; color: #fff;}
+	#coninfo { position: relative; width: 90%; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 100%; height: 300px; margin: -50px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 40px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 80px; top: 200px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 40px; top: 330px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 300px; height: 100px; margin: 170px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+/*PORTRAITS///////*/
+
+@media only screen and
+(min-width:950px) and
+(orientation: portrait) {
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 30px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 10px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 40px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ position: absolute; left: 70px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ position: absolute; right: 60px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ position: absolute; left: 70px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ position: absolute; right: 60px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen { margin-top: 0px;}
+			#home .screen .content { position: relative; margin:10px auto; width: 100%;}
+				#combox { width: 642px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+				#combox1 { position: absolute; width: 150px; height: 150px; margin-left: 0px; z-index: 3000; background: url(../img/logo/riru1.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 192px; height: 150px; margin-left: 150px; z-index: 3000; background: url(../img/logo/subar1.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 150px; height: 150px; margin-left: 342px; z-index: 3000; background: url(../img/logo/rupir1.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 150px; height: 150px; margin-left: 492px; z-index: 3000; background: url(../img/logo/nohotel1.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 580px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 40px auto; color: #000; }
+			#action { position: relative; width: 700px; height: 145px; margin: 100 auto; border: 0px solid #000000; }
+					#action_like { position: absolute; width: 150px; height: 147px; left: 0px; top: 0px; background: url(../img/logo/like.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 150px; height: 147px; left: 270px; top: 0px; background: url(../img/logo/share.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 150px; height: 147px; right: 0px; top: 0px; background: url(../img/logo/win.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: 0px; top: 120px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 30px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 70px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 800px; min-height: 120px; margin: 100px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);
+			-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen { background: url(../images/technik_frei2l.png) 50% 50% no-repeat; }
+			#technik .screen .content { margin-top: 50; margin-left: 70; width: 700px; }
+#auszeit { position: relative; width: 700px; min-height: 50px; left: 10px ; top: 30px; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 500px; height: 260px; left: 130px ; top: 40px; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);
+-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { margin-top: 14%; margin-left: 68%; color: #fff; }
+		#labtxt1{ position: relative; width: 700px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#rirusearch { position: relative; width: 761px; height: 122px; margin: -80px auto; background: url(../img/bgs/rirusearch.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 700px; min-height: 69px; margin: 130px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 14px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: -100px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 700px; min-height: 50px; margin: 110px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 620px; height: 150px; margin: -100px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+			#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: 0px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+				
+			
+			
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 90%; min-height: 50px; max-height: 600px; overflow-y: scroll; margin: 60px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 30px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#sledge { position: absolute; width: 134px; height: 47px; left: 147px; top:-40px; z-index: 3000; background: url(../img/logo/sledge.png) 0 0 no-repeat;}
+	#contact .screen .content { margin-top: 14%; margin-left: 20%; color: #fff;}
+	#coninfo { position: relative; width: 700px; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 800px; height: 300px; margin: -70px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 0px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 580px; top: 0px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 260px; top: 20px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 400px; height: 100px; margin: -50px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+@media only screen and
+(min-width:770px) and
+(max-width:949px) and
+(orientation: portrait){ 
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 26px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 10px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: 10px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 40px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ position: absolute; left: 70px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ position: absolute; right: 60px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ position: absolute; left: 70px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ position: absolute; right: 60px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen { margin-top: 0px;}
+			#home .screen .content { position: relative; margin:10px auto; width: 90%;}
+				#combox { width: 642px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+				#combox1 { position: absolute; width: 150px; height: 150px; margin-left: 0px; z-index: 3000; background: url(../img/logo/riru1.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 192px; height: 150px; margin-left: 150px; z-index: 3000; background: url(../img/logo/subar1.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 150px; height: 150px; margin-left: 342px; z-index: 3000; background: url(../img/logo/rupir1.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 150px; height: 150px; margin-left: 492px; z-index: 3000; background: url(../img/logo/nohotel1.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 580px; height: 150px; margin: 0px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 40px auto; color: #000; }
+			#action { position: relative; width: 700px; height: 145px; margin: 70 auto; border: 0px solid #000000; }
+					#action_like { position: absolute; width: 150px; height: 147px; left: 40px; top: 0px; background: url(../img/logo/like.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 150px; height: 147px; left: 270px; top: 0px; background: url(../img/logo/share.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 150px; height: 147px; right: 40px; top: 0px; background: url(../img/logo/win.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: 0px; top: 120px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 30px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 70px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 600px; min-height: 120px; margin: 100px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);
+			-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen {  background: url(../images/technik_frei2l.png) 50% 50% no-repeat; }
+			#technik .screen .content { margin: 50 auto; width: 700px; }
+#auszeit { position: relative; width: 500px; min-height: 50px; margin: 30 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 500px; height: 260px; margin: -20 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);
+-moz-border-radius-topleft: 6px/*{cornerRadius}*/; -webkit-border-top-left-radius: 6px/*{cornerRadius}*/; -khtml-border-top-left-radius: 6px/*{cornerRadius}*/; border-top-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-topright: 6px/*{cornerRadius}*/; -webkit-border-top-right-radius: 6px/*{cornerRadius}*/; -khtml-border-top-right-radius: 6px/*{cornerRadius}*/; border-top-right-radius: 6px/*{cornerRadius}*/;
+			-moz-border-radius-bottomleft: 6px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 6px/*{cornerRadius}*/; border-bottom-left-radius: 6px/*{cornerRadius}*/; 
+			-moz-border-radius-bottomright: 6px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 6px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 6px/*{cornerRadius}*/; border-bottom-right-radius: 6px/*{cornerRadius}*/;}
+			
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { position: relative; width: 47px; height: 31px; margin: 20px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { position: relative; margin: 0px auto;}
+		#labtxt1{ display: none; position: relative; width: 450px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#labtxt1 h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+
+		#rirusearch { position: relative; width: 243px; height: 188px; margin: 70px auto; background: url(../img/bgs/rirusearch2.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 500px; min-height: 69px; margin: -60px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 14px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: 50px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 520px; min-height: 50px; margin: 60px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 300px; height: 150px; margin: -40px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: 0px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+									
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 90%; min-height: 50px; max-height: 600px; overflow-y: scroll; margin: 60px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 30px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#contact .screen .content { margin-top: 14%; margin-left: 20%; color: #fff;}
+	#coninfo { position: relative; width: 700px; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 500px; height: 300px; margin: -50px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 0px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 260px; top: 0px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 220px; top: 170px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 400px; height: 100px; margin: -50px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+@media only screen and
+(min-width:500px) and
+(max-width:769px) and
+(orientation: portrait){ 
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 0px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 40px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ position: absolute; left: 30px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ position: absolute; right: 20px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ display:none; position: absolute; left: 30px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ display:none; position: absolute; right: 20px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen {top: 0px;}
+			#home .screen .content { position: relative; margin:-20px auto; width: 90%;}
+				#combox { width: 380px; height: 150px; margin: 0px auto; z-index: 3000; }
+				#combox1 { position: absolute; width: 150px; height: 150px;left: 10px; top:0px; z-index: 3000; background: url(../img/logo/riru1.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 192px; height: 150px; left: 130px; top:90px;  z-index: 3000; background: url(../img/logo/subar1.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 150px; height: 150px; left: 152px; top:0px; z-index: 3000; background: url(../img/logo/rupir1.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 150px; height: 150px; left: 292px; top:0px; z-index: 3000; background: url(../img/logo/nohotel1.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 400px; height: 150px; margin: 40px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 40px auto; color: #000; }
+			#action { position: relative; width: 400px; height: 200px; margin: -10px auto; border: 0px solid #000000; }
+					#action_like { position: absolute; width: 150px; height: 147px; left: 0px; top: 0px; background: url(../img/logo/like.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 150px; height: 147px; left: 270px; top: 0px; background: url(../img/logo/share.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 150px; height: 147px; left: 130px; top: 70px; background: url(../img/logo/win.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: 0px; top: 120px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 30px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 70px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 100%; min-height: 120px; margin: 120px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { display:none; position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen .content { margin: 50 auto; width: 100%; border: 0px solid #000000;}
+#auszeit { position: relative; width: 90%; min-height: 50px; margin: 30 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 100%; height: 260px; margin: -20 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);}
+
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { position: relative; width: 47px; height: 31px; margin: 20px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { position: relative; margin: 0px auto;}
+		#labtxt1{ display: none; position: relative; width: 450px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#labtxt1 h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+
+		#rirusearch { position: relative; width: 243px; height: 188px; margin: 70px auto; background: url(../img/bgs/rirusearch2.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 100%; min-height: 69px; margin: -60px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: 50px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 90%; min-height: 50px; margin: 60px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 300px; height: 150px; margin: -40px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: 0px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+							
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 90%; min-height: 50px; max-height: 600px; overflow-y: scroll; margin: 60px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 30px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#contact .screen .content { margin-top: 14%; margin-left: 20%; color: #fff;}
+	#coninfo { position: relative; width: 90%; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 500px; height: 300px; margin: -50px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 0px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 260px; top: 0px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 220px; top: 170px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 400px; height: 100px; margin: -50px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+
+
+@media only screen and
+(min-width:230px) and
+(max-width:499px) and
+(orientation: portrait){ 
+#preloader { width: 245px; height: 383px; text-align: center; margin: 100px auto ;}
+#loadingbar { top: -200px; width: 242px; height: 383px; text-align: center; color: #fff; background:transparent;}
+
+
+/* -- Typografics */
+h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; line-height: 26px; text-transform: uppercase; padding: 0 0 0px 0; }
+h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+
+/* -- Header ----------------------------- */
+#top { width: 100%; position: absolute; left: 0; top: 0; z-index: 500; }
+	#header { background: rgba(58, 64, 76, 0.0); min-height: 50px; width: 80px; left: 0px;  top: 0px; position: relative;}
+
+		#logo { width: 80px; height: 80px; position: absolute; left: 0px; top: 0px; background:url(../img/header/logo.png) 0 0 no-repeat; }
+		#linkline { background: rgba(0, 0, 0, 0.0); min-height: 50px; min-width: 50px; left: 0px ; top: 0px; position: absolute; xbox-shadow: 0px 0px 2px #bbb;}
+
+				#linkbox2 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 100px; position: fixed; overflow: hidden; }
+				#linkbox3 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 150px; position: fixed; overflow: hidden; }
+				#linkbox4 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 200px; position: fixed; overflow: hidden;}
+				#linkbox5 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 250px; position: fixed; overflow: hidden;}
+				#linkbox6 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 300px; position: fixed; overflow: hidden;}
+				#linkbox7 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 350px; position: fixed; overflow: hidden;}
+				#linkbox8 { background: rgba(0, 0, 0, 0.0); min-height: 50px; width: 50px; left: -26px ; top: 400px; position: fixed; overflow: hidden;}
+
+				#nav { float: left; position: absolute; height: 0px; margin-top: 0; margin-left:  0; }
+				#nav li { margin: 0 0px 0 0; float: left; }
+				#top li a { display:block; width:50px; height:50px; background:url(../img/header/menu_a.png) 0 0 no-repeat; margin-left: 0 ; }
+				#top li a:hover { background:url(../img/header/menu_a_hov.png) 0 0 no-repeat;}
+				#top li.active a, #nav li a:active { background:url(../img/header/menu_a_act.png) 0 0 no-repeat; }
+				#nav li a:focus { color: #64D1F4; background: rgba(1, 164, 194, 0.6);}
+				#meta { /*float: right;*/ position: absolute; right: 5px; z-index: 101; padding: 0px 0px 0 0; text-align: right; height: 20px; font-size: 11px;}
+				#meta li a {padding: 0;}
+
+
+/* -- Content-Slides ----------------------------- */
+#home,#projects,#design,#technik,#lab { position: relative; min-height: 600px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+#about,#contact { position: relative; min-height: 800px; width: 100%; margin-left: 0; margin-top: 0; padding: 0; overflow: hidden;}
+	.sprite { position: absolute; width: 100%; min-height: 800px; z-index: 200; top: 0; left: 0; padding: 0; }
+	.screen { position: absolute; width: 100%; min-height: 800px; z-index: 201; top: 0; padding: 0; }
+	.screen .content { width: 280px; margin-left: 200; margin-top: 0; }
+
+		#homebox{ position: absolute; left: 0px; min-width: 10px; right: 0px;  min-height: 10px; top: 0px; bottom: 60px; border: 0px solid #000000; z-index: 1; }
+	
+	
+/* -- Page 1 -- */
+#home { background: url(../img/bgs/home.jpg) 50% 50% no-repeat; }
+	
+	#bx1{ display:none; position: absolute; left: 30px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx2{ display:none; position: absolute; right: 20px; top: 0px; width: 20px; height: 20px; border-top: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	#bx3{ display:none; position: absolute; left: 30px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-left: 1px solid #ffffff; }
+	#bx4{ display:none; position: absolute; right: 20px; bottom: 0px; width: 20px; height: 20px; border-bottom: 1px solid #ffffff; border-right: 1px solid #ffffff; }
+	
+	#komod { width: 100%; height: 600px; background: url(../img/bgs/surfer.png) 700 505 no-repeat; z-index: 3000; }
+	
+			#home .screen {top: 0px;}
+			#home .screen .content { position: relative; margin:0px auto; width: 100%;}
+				#combox { position:relative; width: 330px; height: 150px; margin: 0px auto; z-index: 3000; }
+				#combox1 { position: absolute; width: 120px; height: 120px;left: 0px; top:30px; z-index: 3000; background: url(../img/logo/riru1s.png) 0 0 no-repeat;}
+				#combox2 { position: absolute; width: 154px; height: 120px; left: 80px; top:100px;  z-index: 3000; background: url(../img/logo/subar1s.png) 0 0 no-repeat;}
+				#combox3 { position: absolute; width: 120px; height: 120px; left: 100px; top:30px; z-index: 3000; background: url(../img/logo/rupir1s.png) 0 0 no-repeat;}
+				#combox4 { position: absolute; width: 120px; height: 120px; left: 210px; top:30px; z-index: 3000; background: url(../img/logo/nohotel1s.png) 0 0 no-repeat;}
+				#home .screen .content h1 { position: relative; margin: 0px auto; color: #ffffff; text-align: center; height: 30px;}
+				#home .screen .content h2 { position: relative; margin: 0 auto; color: #ffffff; text-align: center; }
+				#home .screen .content h3 { position: relative; margin: 20px auto; color: #ffffff; text-align: center; }
+				#hometxt{ width: 90%; min-height: 150px; margin: 50px auto; z-index: 3000; border: 0px solid #000000}
+#hometxt h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; text-transform: uppercase; padding: 0 0 0px 0; }
+				
+#arrow_w { position: relative; width: 47px; height: 31px; margin: 60px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+			
+
+/* -- Page 2 -- */
+#design { background: url(../img/bgs/bg.jpg) 50% 50% no-repeat; }
+.headbox { position: absolute; width: 100%; height: 80px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0.99); z-index: 100000}
+#design h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			
+			#design .screen .content { width: 100%; margin: 0px auto; color: #000; }
+			#action { position: relative; width: 90%; height: 200px; margin: 40px auto; }
+					#action_like { position: absolute; width: 100px; height: 98px; left: 20px; top: 40px; background: url(../img/logo/likes.png) 0 0 no-repeat;}
+					#action_share { position: absolute; width: 100px; height: 98px; left: 230px; top: 40px; background: url(../img/logo/shares.png) 0 0 no-repeat;}
+					#action_win { position: absolute; width: 100px; height: 98px; left: 128px; top: 150px; background: url(../img/logo/wins.png) 0 0 no-repeat; }
+					.action_txt { position: absolute; width: 150px; height: 200px; left: -20px; top: 75px; border: 0px solid #000000 }
+					.action_txt h2{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 20px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					.action_txt h3{ margin-top: -20px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.6); }
+					#likeboxfb { position: absolute; width: 50px; height: 20px; left: 30px; top: 70px; background: url(../img/logo/likebu.png) 0 0 no-repeat;}
+					#socbox { position: absolute; width: 90px; height: 30px; left: 35px; top: 50px; border: 0px solid #000000; overflow: hidden;}
+						#fb-box { position: absolute; width: 30px; height: 30px; left: 0px; top: 0px; }
+						#explain { position: relative; width: 100%; min-height: 120px; margin: 120px auto; border: 0px solid #000000; background: rgba(255, 255, 255, 0.6);}
+			#explain h3{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 10px 10px 0px 10px; font-size: 18px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+			#explain h4{  font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; letter-spacing: -1px; padding: 0px 10px 10px 10px; font-size: 14px; text-align: center; color: rgba(0, 52, 67, 0.9); }
+					
+			#arrow_b { display:none; position: relative; width: 47px; height: 31px; margin: -60px auto; background: url(../img/logo/arrow_b.png) 0 0 no-repeat;}
+
+/* -- Page 3 -- */
+#technik { background: url(../img/bgs/sea.jpg) 50% 50% no-repeat; }
+#technik h1 { position: relative; margin: 40px auto; color: #8d4d1f; text-align: center; height: 30px;}
+
+			#technik .sprite { background: url(../img/bgs/kitejump.png) 50% 172px no-repeat fixed; }
+			#technik .screen .content { margin: 50 auto; width: 100%; border: 0px solid #000000;}
+#auszeit { position: relative; width: 90%; min-height: 50px; margin: 80px auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0);}
+#auszeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(0, 52, 67, 0.8);}
+#austab { position: relative; width: 100%; height: 260px; margin: -60 auto; border: 0px solid #000000; background: rgba(0, 52, 67, 0.3);}
+
+#austab h3{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; line-height: 0px; text-align: left; color: rgba(255, 255, 255, 1); }
+#austab h4{ margin-left: 10px; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 6px 20px 0px 15px; line-height: 13px; text-align: left; color: rgba(255, 255, 255, 1); }
+#tabinfo { position: relative; width: 480px; min-height: 100px; top: 10px; border-bottom: 1px solid #ffffff;}
+
+
+#arrow_b2 { display:none; position: relative; width: 47px; height: 31px; margin: 20px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+#orgbox { position: absolute; width: 301px; height: 64px; right: 30px; bottom: 13px; border: 0px solid #000000;}
+		#orgbox_ri { position: absolute; width: 61px; height: 64px; left: 0px; bottom: 0px; background: url(../img/logo/riru2.png) 0 0 no-repeat;}
+		#orgbox_su { position: absolute; width: 96px; height: 64px; left: 61px; bottom: 0px; background: url(../img/logo/subar2.png) 0 0 no-repeat;}
+		#orgbox_pir { position: absolute; width: 71px; height: 64px; left: 157px; bottom: 0px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+		#orgbox_no { position: absolute; width: 75px; height: 64px; left: 228px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+
+
+
+/* -- Page 4 -- */
+#lab { background: url(../img/bgs/rirubg.jpg) 50% 0 no-repeat ; }
+#lab h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+#lab h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 10px 0; line-height: 20px; }
+#lab h4{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+		#rirulogode { position: relative; width: 238px; height: 69px; margin: 6px auto; background: url(../img/logo/rirude.png) 100% 0px no-repeat; }
+		#lab .screen .content { position: relative; margin: 0px auto;}
+		#labtxt1{ display: none; position: relative; width: 450px; height: 24px; margin: 90px auto; background: rgba(255, 255, 255, 0.4); }
+		#labtxt1 h2{ padding: 6px 0 10px 0; font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 20px; color: #003443; letter-spacing: -1px; text-align: center;}
+
+		#rirusearch { position: relative; width: 243px; height: 188px; margin: 70px auto; background: url(../img/bgs/rirusearch2.png) 100% 0px no-repeat; }
+		#rirunnerUS { position: relative; width: 100%; min-height: 69px; margin: -60px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+		#rirunnerUS h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 17px; color: #f8f8f8; }
+#arrow_b3 { position: relative; width: 47px; height: 31px; margin: 50px auto; background: url(../img/logo/arrow_w.png) 0 0 no-repeat;}
+
+
+			
+/* -- Page 5 -- */
+#projects { background: url(../img/bgs/rebo.jpg) 100% 70% no-repeat; }
+#projects h1 { position: relative; margin: 40px auto; color: #004b61; text-align: center; height: 30px;}
+			#projects .screen .content { width: 100%; height: 2000px; margin-left: 0; margin-top: 0; padding-top: 0; background: none; }
+			#projects .screen .csc-header {top: 0px; left: 140px; width: 900px;}
+			#projects .screen  h1 { position: relative; top: -5px; left: 340px; color: #f4f4f4; z-index: 260;}
+			#ruezeit { position: relative; width: 90%; min-height: 50px; margin: 80px auto; border: 0px solid #000000; }
+			#ruezeit h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 18px; padding: 12px 0 10px 0; line-height: 20px; text-align: center; color: rgba(248, 248, 248, 0.8);}
+			#rueoffer { position: relative; width: 300px; height: 150px; margin: -40px auto; border: 0px solid #000000; }
+			#rueoffer h2{ font-family:Helvetica, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 12px; padding: 0px 0 0px 0; line-height: 10px; }
+			#rueoffer h3{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 18px; padding: 6px 0 6px 0; line-height: 20px; }
+			#rueoffer h4{ font-family: Times, "Times New Roman", serif; font-weight:normal; font-style:italic; font-size: 14px; padding: 6px 0 6px 0; line-height: 20px; }
+
+#rueinner { position: absolute; width: 250px; height: 160px; right: 0px; top: -10px; background: rgba(51, 197, 98, 1); box-shadow: 4px 4px 15px #004b61; border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 30px;}
+			#sukise { position: absolute; width: 230px; height: 0px; left: 0px; top: -10px; }
+			#sukise h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 21px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#bebreak { position: absolute; width: 200px; height: 0px; left: 0px; top: 0px; }
+			#bebreak h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 16px; color: rgba(255, 255, 255, 0.9); letter-spacing: -1; text-transform: uppercase; text-align: center;}
+			#ab{ position: absolute; width: 70px; height: 0px; left: -15px; top: 60px; }
+			#ab h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 26px; color: rgba(255, 255, 255, 0.6); letter-spacing: -1; text-align: center;}
+			#ruepreis { position: absolute; width: 100px; height: 20px; left: 30px; bottom: 200px;  }
+			#ruepreis h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 72px; color: rgba(255, 255, 255, 0.9); letter-spacing: -3; text-align: center;}
+
+				#ruepirlog{ position: absolute; width: 71px; height: 64px; left: 180px; bottom: 70px; background: url(../img/logo/rupir2.png) 0 0 no-repeat;}
+				#nohotelog { position: absolute; width: 75px; height: 64px; left: 180px; bottom: 0px; background: url(../img/logo/nohotel2.png) 0 0 no-repeat;}
+				
+/* -- Page 6 -- */
+#about { background: rgba(255, 255, 255, 1); }
+#about h1 { position: relative; margin: 40px auto; color: #bdbdbd; text-align: center; height: 30px;}
+
+#about .content { top: 0; left: 0px; color: #fff; }
+#bedin { position: relative; width: 100%; min-height: 80px; max-height: 600px; overflow-y: scroll; margin: 90px auto; border: 0px solid #000000; }
+			#bedin h3{ font-family: Times, "Times New Roman", serif; letter-spacing: -1px; font-weight:normal; font-style:italic; font-size: 14px; padding: 12px 0 10px 0; line-height: 15px; text-align: left; color: rgba(0, 52, 67, 0.8)}
+
+			/* -- contact -- */
+#contact { background: url(../img/bgs/bgnite.jpg) 100% 70% no-repeat fixed; }
+	.headbox2 { position: absolute; width: 100%; height: 20px; top: 0px; left: 0px; background: rgba(255, 255, 255, 0); }
+	#innerboxcon { position: relative; width: 100px; height: 1px; margin: 50px auto; }
+	#contact h1 { position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; height: 30px;}
+	#contact .screen .content { margin: 0px auto; color: #fff;}
+	#coninfo { position: relative; width: 90%; height: 10px; margin: 120px auto; border: 0px solid #ffffff; background: rgba(0, 52, 67, 0);}
+	#coninfo h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: center; font-style:normal; font-size: 12px; padding: 15px 15px 15px 15px; line-height: 16px; color: #f8f8f8; }
+#cominfobox { position: relative; width: 100%; height: 300px; margin: -50px auto; border: 0px solid #ffffff; }
+#cominfobox1 { position: absolute; width: 200px; height: 150px; left: 40px; top: 20px; }
+#cominfobox2 { position: absolute; width: 200px; height: 150px; left: 80px; top: 200px;  }
+#cominfobox3 { position: absolute; width: 200px; height: 150px; left: 50px; top: 100px;  }
+#cominfobox4 { position: absolute; width: 200px; height: 150px; left: 40px; top: 330px; }
+
+#cominfologo1 { position: absolute; width: 100px; height: 100px; left: 0px; top: -50px; background: url(../img/logo/nohotel3.png) 0 0 no-repeat; }
+#cominfologo2 { position: absolute; width: 100px; height: 100px; left: -54px; top: 1px; background: url(../img/logo/rupir3.png) 0 0 no-repeat; }
+#cominfologo3 { position: absolute; width: 128px; height: 100px; left: 60px; top: 0px; background: url(../img/logo/subar3.png) 0 0 no-repeat; }
+#cominfologo4 { position: absolute; width: 100px; height: 100px; left: -10px; top: -18px; background: url(../img/logo/riru3.png) 0 0 no-repeat; }
+	
+#cominfotxt { position: absolute; width: 200px; height: 100px; right: 0px; top: 0px; border: 0px solid #ffffff; }
+#cominfotxt h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: right; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+
+#fotosour { position: relative; width: 300px; height: 100px; margin: 170px auto; border: 0px solid #ffffff; }
+#fotosour h3{  font-family:Helvetica, Arial, sans-serif; font-weight:normal; text-align: left; font-style:normal; font-size: 12px; padding: 0px 0px 0px 0px; line-height: 16px; color: #f8f8f8; }
+	
+}
+

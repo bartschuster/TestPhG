@@ -1,0 +1,86 @@
+
+/*//LANDSCAPE/////////*/
+@media only screen and
+(min-width:690px) and
+(orientation: landscape) {			
+ h2  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+ h2 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #1f92b6; text-align: left; }
+
+ h3  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ h3 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ 
+	
+			#impressum{position: relative; margin: 20px auto; width: 650px; border:: 1px solid #000000;}
+			
+/*FORMULAR///////*/
+#Report {width: 400px; height: 180px;}	
+		
+/*RIDERS / MFG.PHP/BUS.PHP/TRAIN.PHP/////*/	
+#inhalt{position: relative; margin: 100px auto; width: 726px; min-height: 400px; }
+#sender {cursor: pointer; position: relative; top: 10px; right:1px; width: 156px; height: 42px; background: url(../img/offers/senden.png) no-repeat 0px 0px; border: 0;}
+}					
+
+
+@media only screen and
+(min-width:230px) and
+(max-width:689px) and
+(orientation: landscape){ 			
+ h2  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+ h2 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #1f92b6; text-align: left; }
+
+ h3  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ h3 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ 
+	
+			#impressum{position: relative; margin: 20px auto; width: 80%; border:: 1px solid #000000;}
+			
+/*FORMULAR///////*/
+#Report {width: 80%; min-height: 180px;}	
+		
+/*RIDERS / MFG.PHP/BUS.PHP/TRAIN.PHP/////*/	
+#inhalt{position: relative; margin: 100px auto; width: 100%; min-height: 400px; }
+#sender {cursor: pointer; position: relative; top: 10px; right:1px; width: 156px; height: 42px; background: url(../img/offers/senden.png) no-repeat 0px 0px; border: 0;}
+}					
+
+
+@media only screen and
+(min-width:690px) and
+(orientation: portrait) {			
+ h2  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+ h2 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #1f92b6; text-align: left; }
+
+ h3  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ h3 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ 
+	
+			#impressum{position: relative; margin: 20px auto; width: 650px; border:: 1px solid #000000;}
+			
+/*FORMULAR///////*/
+#Report {width: 400px; height: 180px;}	
+		
+/*RIDERS / MFG.PHP/BUS.PHP/TRAIN.PHP/////*/	
+#inhalt{position: relative; margin: 100px auto; width: 726px; min-height: 400px; }
+#sender {cursor: pointer; position: relative; top: 10px; right:1px; width: 156px; height: 42px; background: url(../img/offers/senden.png) no-repeat 0px 0px; border: 0;}
+}					
+
+
+@media only screen and
+(min-width:230px) and
+(max-width:689px) and
+(orientation: portrait){ 			
+ h2  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+ h2 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #1f92b6; text-align: left; }
+
+ h3  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ h3 a  { text-decoration: none;font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 15px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #de4070; text-align: left; }
+ 
+	
+			#impressum{position: relative; margin: 20px auto; width: 80%; border:: 1px solid #000000;}
+			
+/*FORMULAR///////*/
+#Report {width: 80%; min-height: 180px;}	
+		
+/*RIDERS / MFG.PHP/BUS.PHP/TRAIN.PHP/////*/	
+#inhalt{position: relative; margin: 100px auto; width: 100%; min-height: 400px; }
+#sender {cursor: pointer; position: relative; top: 10px; right:1px; width: 156px; height: 42px; background: url(../img/offers/senden.png) no-repeat 0px 0px; border: 0;}
+}					

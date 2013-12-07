@@ -1,0 +1,261 @@
+
+
+/*LANDSCAPES///////*/
+
+@media only screen and
+(min-width:800px) and
+(orientation: landscape) {
+#bg { width: 100%; height: 100%; margin:0; top: 0px; left: 0px; position: absolute; background:url(../img/bgs/rebo.jpg) 50% -350px no-repeat fixed;}
+#box1 { width: 100%; min-height: 900px; top: 300px; left: 0px; position: absolute; background: rgba(255, 255, 255, 1);}
+	#box2 { width: 800px; height: 60px; margin: -60 auto; position: relative; }
+		#box2a { width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+		#box2b { width: 400px; height: 60px; top: 0px; left: 394px; position: absolute; }
+		#box2 h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 36px; line-height: 12px; text-transform: uppercase; position: relative; margin: 34px auto; color: #f8f8f8; text-align: center; height: 30px;}
+
+	#box3 { width: 800px; height: 60px; margin: 60 auto; position: relative; }
+		#box3a { width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+			#boxnoho { width: 120px; height: 120px; top: 0px; left: 0px; position: absolute; background:url(../img/logo/nohotel1s.png) 0 0 no-repeat;}
+			#boxsurf { width: 154px; height: 120px; top: 0px; left: 120px; position: absolute; background:url(../img/logo/subar1s.png) 0 0 no-repeat;}
+			#boxrupir { width: 120px; height: 120px; top: 0px; left: 274px; position: absolute; background:url(../img/logo/rupir1s.png) 0 0 no-repeat;}
+		#box3b { width: 400px; height: 60px; top: 0px; left: 394px; position: absolute; }
+		#box3 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+		#box3 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 50px; line-height: 12px; letter-spacing: -3; text-transform: uppercase; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+		#box3 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 26px; line-height: 12px; letter-spacing: -1; text-transform: uppercase; position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; }
+
+		#b3btxt1 { width: 300px; height: 0px; top: 15px; left: 0px; position: absolute; }
+		#b3btxt2 { width: 330px; height: 10px; top: 50px; left: 30px; position: absolute; border: 0px solid #000000;}
+		#buttom { width: 250px; height: 50px; top: 50px; left: 50px; position: absolute; background: rgba(51, 197, 98, 1);}
+		#buttomtxt { width: 200px; height: 0px; top: 20px; left: 25px; position: absolute; }
+		
+		#box4 { width: 800px; height: 133px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4a { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/kite.png) 0 0 no-repeat;}
+	#box4b { width: 400px; height: 133px; top: 0px; left: 124px; position: absolute; }
+		#b4btxt1 { width: 400px; height: 0px; top: 25px; left: 0px; position: absolute;  }
+		#b4btxt2 { width: 350px; height: 10px; top: 46px; left: 30px; position: absolute; border: 0px solid #000000;}
+		
+	#box4c { width: 400px; height: 123px; top: 5px; left: 524px; position: absolute; border-left: 1px solid #85a8b3;}
+		#b4ctxt1 { width: 100px; height: 0px; top: 40px; left: 20px; position: absolute; }
+		#b4ctxt2 { width: 100px; height: 10px; top: 30px; left: 90px; position: absolute; }
+		#b4ctxt3 { width: 200px; height: 10px; top: 70px; left: 30px; position: absolute; }
+	
+	#box4 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	
+	#box4x { width: 800px; height: 133px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ax { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/surf.png) 0 0 no-repeat;}
+
+	#box4x h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4x h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	#box4y { width: 800px; height: 133px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ay { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/sail.png) 0 0 no-repeat;}
+
+	#box4y h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4y h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+
+#box5 { width: 800px; height: 70px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+#box5IN { width: 500px; height: 50px; top: 0px; left: 60px; position: absolute; }
+#box5 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 20px auto; color: #85a8b3; text-align: left; }
+}
+
+@media only screen and
+(min-width:230px) and
+(max-width:799px) and
+(orientation: landscape){ 
+#bg { width: 100%; height: 100%; margin:0; top: 0px; left: 0px; position: absolute; background:url(../img/bgs/rebo.jpg) 50% -350px no-repeat fixed;}
+#box1 { width: 100%; min-height: 1200px; top: 300px; left: 0px; position: absolute; background: rgba(255, 255, 255, 1);}
+	#box2 { width: 400px; height: 60px; margin: -60 auto; position: relative; }
+		#box2a { display: none width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+		#box2b { width: 400px; height: 60px; top: 0px; left: 0px; position: absolute; }
+		#box2 h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 36px; line-height: 12px; text-transform: uppercase; position: relative; margin: 34px auto; color: #f8f8f8; text-align: center; height: 30px;}
+
+	#box3 { width: 400px; height: 120px; margin: 60 auto; position: relative; }
+		#box3a { width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+			#boxnoho { width: 120px; height: 120px; top: 0px; left: 0px; position: absolute; background:url(../img/logo/nohotel1s.png) 0 0 no-repeat;}
+			#boxsurf { width: 154px; height: 120px; top: 0px; left: 120px; position: absolute; background:url(../img/logo/subar1s.png) 0 0 no-repeat;}
+			#boxrupir { width: 120px; height: 120px; top: 0px; left: 274px; position: absolute; background:url(../img/logo/rupir1s.png) 0 0 no-repeat;}
+		#box3b { width: 400px; height: 60px; top: 120px; left: 0px; position: absolute; }
+		#box3 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+		#box3 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 50px; line-height: 12px; letter-spacing: -3; text-transform: uppercase; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+		#box3 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 26px; line-height: 12px; letter-spacing: -1; text-transform: uppercase; position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; }
+
+		#b3btxt1 { width: 300px; height: 0px; top: 15px; left: 0px; position: absolute; }
+		#b3btxt2 { width: 330px; height: 10px; top: 50px; left: 30px; position: absolute; border: 0px solid #000000;}
+		#buttom { width: 250px; height: 50px; top: 50px; left: 50px; position: absolute; background: rgba(51, 197, 98, 1);}
+		#buttomtxt { width: 200px; height: 0px; top: 20px; left: 25px; position: absolute; }
+		
+		#box4 { width: 800px; height: 266px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4a { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/kite.png) 0 0 no-repeat;}
+	#box4b { width: 400px; height: 133px; top: 133px; left: 0px; position: absolute; }
+		#b4btxt1 { width: 400px; height: 0px; top: 25px; left: 0px; position: absolute;  }
+		#b4btxt2 { width: 350px; height: 10px; top: 46px; left: 30px; position: absolute; border: 0px solid #000000;}
+		
+	#box4c { width: 400px; height: 123px; top: 5px; left: 124px; position: absolute; border-left: 1px solid #85a8b3;}
+		#b4ctxt1 { width: 100px; height: 0px; top: 40px; left: 20px; position: absolute; }
+		#b4ctxt2 { width: 100px; height: 10px; top: 30px; left: 90px; position: absolute; }
+		#b4ctxt3 { width: 200px; height: 10px; top: 70px; left: 30px; position: absolute; }
+	
+	#box4 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	
+	#box4x { width: 800px; height: 266px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ax { width: 124px; height:133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/surf.png) 0 0 no-repeat;}
+
+	#box4x h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4x h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	#box4y { width: 800px; height: 266px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ay { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/sail.png) 0 0 no-repeat;}
+
+	#box4y h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4y h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+
+#box5 { width: 100%; height: 70px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+#box5IN { width: 290px; height: 50px; top: 0px; left: 60px; position: absolute; }
+#box5 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 20px auto; color: #85a8b3; text-align: left; }
+}
+
+
+@media only screen and
+(min-width:800px) and
+(orientation: portrait) {
+#bg { width: 100%; height: 100%; margin:0; top: 0px; left: 0px; position: absolute; background:url(../img/bgs/rebo.jpg) 50% -350px no-repeat fixed;}
+#box1 { width: 100%; min-height: 900px; top: 300px; left: 0px; position: absolute; background: rgba(255, 255, 255, 1);}
+	#box2 { width: 800px; height: 60px; margin: -60 auto; position: relative; }
+		#box2a { width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+		#box2b { width: 400px; height: 60px; top: 0px; left: 394px; position: absolute; }
+		#box2 h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 36px; line-height: 12px; text-transform: uppercase; position: relative; margin: 34px auto; color: #f8f8f8; text-align: center; height: 30px;}
+
+	#box3 { width: 800px; height: 60px; margin: 60 auto; position: relative; }
+		#box3a { width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+			#boxnoho { width: 120px; height: 120px; top: 0px; left: 0px; position: absolute; background:url(../img/logo/nohotel1s.png) 0 0 no-repeat;}
+			#boxsurf { width: 154px; height: 120px; top: 0px; left: 120px; position: absolute; background:url(../img/logo/subar1s.png) 0 0 no-repeat;}
+			#boxrupir { width: 120px; height: 120px; top: 0px; left: 274px; position: absolute; background:url(../img/logo/rupir1s.png) 0 0 no-repeat;}
+		#box3b { width: 400px; height: 60px; top: 0px; left: 394px; position: absolute; }
+		#box3 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+		#box3 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 50px; line-height: 12px; letter-spacing: -3; text-transform: uppercase; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+		#box3 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 26px; line-height: 12px; letter-spacing: -1; text-transform: uppercase; position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; }
+
+		#b3btxt1 { width: 300px; height: 0px; top: 15px; left: 0px; position: absolute; }
+		#b3btxt2 { width: 330px; height: 10px; top: 50px; left: 30px; position: absolute; border: 0px solid #000000;}
+		#buttom { width: 250px; height: 50px; top: 50px; left: 50px; position: absolute; background: rgba(51, 197, 98, 1);}
+		#buttomtxt { width: 200px; height: 0px; top: 20px; left: 25px; position: absolute; }
+		
+		#box4 { width: 800px; height: 133px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4a { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/kite.png) 0 0 no-repeat;}
+	#box4b { width: 400px; height: 133px; top: 0px; left: 124px; position: absolute; }
+		#b4btxt1 { width: 400px; height: 0px; top: 25px; left: 0px; position: absolute;  }
+		#b4btxt2 { width: 350px; height: 10px; top: 46px; left: 30px; position: absolute; border: 0px solid #000000;}
+		
+	#box4c { width: 400px; height: 123px; top: 5px; left: 524px; position: absolute; border-left: 1px solid #85a8b3;}
+		#b4ctxt1 { width: 100px; height: 0px; top: 40px; left: 20px; position: absolute; }
+		#b4ctxt2 { width: 100px; height: 10px; top: 30px; left: 90px; position: absolute; }
+		#b4ctxt3 { width: 200px; height: 10px; top: 70px; left: 30px; position: absolute; }
+	
+	#box4 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	
+	#box4x { width: 800px; height: 133px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ax { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/surf.png) 0 0 no-repeat;}
+
+	#box4x h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4x h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	#box4y { width: 800px; height: 133px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ay { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/sail.png) 0 0 no-repeat;}
+
+	#box4y h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4y h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+
+#box5 { width: 800px; height: 70px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+#box5IN { width: 500px; height: 50px; top: 0px; left: 60px; position: absolute; }
+#box5 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 20px auto; color: #85a8b3; text-align: left; }
+}
+
+@media only screen and
+(min-width:230px) and
+(max-width:799px) and
+(orientation: portrait){ 
+#bg { width: 100%; height: 100%; margin:0; top: 0px; left: 0px; position: absolute; background:url(../img/bgs/rebo.jpg) 50% -350px no-repeat fixed;}
+#box1 { width: 100%; min-height: 1200px; top: 300px; left: 0px; position: absolute; background: rgba(255, 255, 255, 1);}
+	#box2 { width: 400px; height: 60px; margin: -60 auto; position: relative; }
+		#box2a { display: none width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+		#box2b { width: 400px; height: 60px; top: 0px; left: 0px; position: absolute; }
+		#box2 h1 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 36px; line-height: 12px; text-transform: uppercase; position: relative; margin: 34px auto; color: #f8f8f8; text-align: center; height: 30px;}
+
+	#box3 { width: 400px; height: 120px; margin: 60 auto; position: relative; }
+		#box3a { width: 394px; height: 60px; top: 0px; left: 0px; position: absolute; }
+			#boxnoho { width: 120px; height: 120px; top: 0px; left: 0px; position: absolute; background:url(../img/logo/nohotel1s.png) 0 0 no-repeat;}
+			#boxsurf { width: 154px; height: 120px; top: 0px; left: 120px; position: absolute; background:url(../img/logo/subar1s.png) 0 0 no-repeat;}
+			#boxrupir { width: 120px; height: 120px; top: 0px; left: 274px; position: absolute; background:url(../img/logo/rupir1s.png) 0 0 no-repeat;}
+		#box3b { width: 400px; height: 60px; top: 120px; left: 0px; position: absolute; }
+		#box3 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+		#box3 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:bold; font-style:normal; font-size: 50px; line-height: 12px; letter-spacing: -3; text-transform: uppercase; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+		#box3 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 26px; line-height: 12px; letter-spacing: -1; text-transform: uppercase; position: relative; margin: 0px auto; color: #f8f8f8; text-align: center; }
+
+		#b3btxt1 { width: 300px; height: 0px; top: 15px; left: 0px; position: absolute; }
+		#b3btxt2 { width: 330px; height: 10px; top: 50px; left: 30px; position: absolute; border: 0px solid #000000;}
+		#buttom { width: 250px; height: 50px; top: 50px; left: 50px; position: absolute; background: rgba(51, 197, 98, 1);}
+		#buttomtxt { width: 200px; height: 0px; top: 20px; left: 25px; position: absolute; }
+		
+		#box4 { width: 800px; height: 266px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4a { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/kite.png) 0 0 no-repeat;}
+	#box4b { width: 400px; height: 133px; top: 133px; left: 0px; position: absolute; }
+		#b4btxt1 { width: 400px; height: 0px; top: 25px; left: 0px; position: absolute;  }
+		#b4btxt2 { width: 350px; height: 10px; top: 46px; left: 30px; position: absolute; border: 0px solid #000000;}
+		
+	#box4c { width: 400px; height: 123px; top: 5px; left: 124px; position: absolute; border-left: 1px solid #85a8b3;}
+		#b4ctxt1 { width: 100px; height: 0px; top: 40px; left: 20px; position: absolute; }
+		#b4ctxt2 { width: 100px; height: 10px; top: 30px; left: 90px; position: absolute; }
+		#b4ctxt3 { width: 200px; height: 10px; top: 70px; left: 30px; position: absolute; }
+	
+	#box4 h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4 h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	
+	#box4x { width: 800px; height: 266px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ax { width: 124px; height:133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/surf.png) 0 0 no-repeat;}
+
+	#box4x h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4x h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4x h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	
+	#box4y { width: 800px; height: 266px; margin: 110px auto; position: relative; background: rgba(224, 233, 236, 1);}
+	#box4ay { width: 124px; height: 133px; top: 0px; left: 0px; position: absolute; background:url(../img/offers/sail.png) 0 0 no-repeat;}
+
+	#box4y h2 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 24px; line-height: 12px; letter-spacing: -1; position: relative; margin: 0px auto; color: #85a8b3; text-align: center; }
+	#box4y h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h4 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 80px; line-height: 12px; letter-spacing: -4; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+	#box4y h5 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 14px; line-height: 12px; letter-spacing: 0; position: relative; margin: 0px auto; color: #85a8b3; text-align: left; }
+
+#box5 { width: 100%; height: 70px; margin: -100px auto; position: relative; background: rgba(224, 233, 236, 1);}
+#box5IN { width: 290px; height: 50px; top: 0px; left: 60px; position: absolute; }
+#box5 h3 { font-family:Myriad pro, Arial, sans-serif; font-weight:normal; font-style:normal; font-size: 18px; line-height: 16px; letter-spacing: 0; position: relative; margin: 20px auto; color: #85a8b3; text-align: left; }
+}
+
+
+
